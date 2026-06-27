@@ -8,10 +8,16 @@ import os
 # Page Config
 st.set_page_config(page_title="MalwareGuard MVP", page_icon="🛡️")
 
-# Load model
+# Load model (auto-bootstrap data + model on a fresh clone)
 @st.cache_resource
 def load_model():
-    return joblib.load('models/malware_classifier.pkl')
+    import subprocess, sys
+    model_path = 'models/malware_classifier.pkl'
+    if not os.path.exists(model_path):
+        if not os.path.exists('data/pe_malware_dataset.csv'):
+            subprocess.run([sys.executable, 'scripts/generate_data.py'], check=True)
+        subprocess.run([sys.executable, 'scripts/train_model.py'], check=True)
+    return joblib.load(model_path)
 
 model = load_model()
 

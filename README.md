@@ -38,6 +38,12 @@ To launch the Streamlit dashboard:
 ```bash
 streamlit run app.py
 ```
+> On a fresh clone the synthetic dataset and trained model are not committed (see `.gitignore`).
+> `app.py` bootstraps them automatically on first launch. To build them manually instead:
+> ```bash
+> python scripts/generate_data.py   # creates data/pe_malware_dataset.csv
+> python scripts/train_model.py     # trains & saves models/malware_classifier.pkl
+> ```
 
 ### Running Tests
 To run the security robustness test:
@@ -76,3 +82,12 @@ The system was tested against **Adversarial Noise**. We simulated an attacker at
 - **Frontend:** Streamlit
 - **Data:** Pandas, NumPy
 - **Persistence:** Joblib (Model), CSV (Dataset)
+
+---
+
+## 📦 Submission Deliverables
+All academic submission materials live in [`docs/`](docs/):
+- **Poster:** [`docs/MalwareGuard_Poster.pptx`](docs/MalwareGuard_Poster.pptx) + [`docs/MalwareGuard_Poster.pdf`](docs/MalwareGuard_Poster.pdf)
+- **Project Abstract Form:** [`docs/Project_Abstract_Form.docx`](docs/Project_Abstract_Form.docx) + [`docs/Project_Abstract_Form.pdf`](docs/Project_Abstract_Form.pdf)
+- **Poster figures (high-res):** [`docs/figures/`](docs/figures/)
+- **Video script / storyboard:** [`docs/Video_Script.md`](docs/Video_Script.md)
