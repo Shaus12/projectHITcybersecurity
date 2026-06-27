@@ -28,4 +28,4 @@ Adversarial robustness testing performed using incremental feature manipulation.
 - **GitHub repository:** https://github.com/Shaus12/projectHITcybersecurity.git
 - **Project Abstract Form:** [docs/Project_Abstract_Form.pdf](docs/Project_Abstract_Form.pdf) (+ `.docx`)
 - **Poster:** [docs/MalwareGuard_Poster.pdf](docs/MalwareGuard_Poster.pdf) (+ `.pptx`)
-- **Video:** see [docs/Video_Script.md](docs/Video_Script.md) — recording link to be added before submission
+- **Video:** see [Project_Video.md](Project_Video.md) — recording link to be added before submission

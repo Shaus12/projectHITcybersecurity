@@ -90,4 +90,4 @@ All academic submission materials live in [`docs/`](docs/):
 - **Poster:** [`docs/MalwareGuard_Poster.pptx`](docs/MalwareGuard_Poster.pptx) + [`docs/MalwareGuard_Poster.pdf`](docs/MalwareGuard_Poster.pdf)
 - **Project Abstract Form:** [`docs/Project_Abstract_Form.docx`](docs/Project_Abstract_Form.docx) + [`docs/Project_Abstract_Form.pdf`](docs/Project_Abstract_Form.pdf)
 - **Poster figures (high-res):** [`docs/figures/`](docs/figures/)
-- **Video script / storyboard:** [`docs/Video_Script.md`](docs/Video_Script.md)
+- **Video:** see [`Project_Video.md`](Project_Video.md) — recording link to be added before submission
