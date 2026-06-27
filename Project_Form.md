@@ -3,7 +3,7 @@
 **Project Title (EN):** Malware Classification via PE Header Analysis
 **Project Title (HE):** סיווג נוזקות באמצעות ניתוח כותרות PE
 **Student:** Shai Shotashvili
-**Supervisor:** Yakov Damatov
+**Supervisor:** Vyacheslav Nepdov (נפדוב ויאצ׳לב)
 **Course:** Introduction to AI-Driven Cyber Security (מבוא לאבטחת סייבר מונחית בינה מלאכותית)
 **Type / Term:** Semestrial course-final project · Computer Science · Spring 2026
 **Topic:** Malware Classification

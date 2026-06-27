@@ -13,7 +13,7 @@
 **Say:**
 > "Hi, I'm Shai Shotashvili. This is *Malware Classification via PE Header Analysis* —
 > a defensive cybersecurity project for the *Introduction to AI-Driven Cyber Security* course,
-> supervised by Yakov Damatov. Traditional antivirus relies on signatures, which packed and
+> supervised by Vyacheslav Nepdov. Traditional antivirus relies on signatures, which packed and
 > encrypted malware easily evades. Instead, MalwareGuard classifies Windows executables from
 > the *structural* metadata in their PE headers — features attackers can't hide without
 > breaking the file."
